@@ -1,0 +1,192 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: 122.166.166.152:81",
+                "infFile": "t1.inf",
+                "time": 1601891837104
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: info",
+                "infFile": "t2.inf",
+                "time": 1601891839550
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: login",
+                "infFile": "t3.inf",
+                "time": 1601891844237
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: login_2",
+                "infFile": "t4.inf",
+                "time": 1601891851619
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: generateOtp",
+                "infFile": "t5.inf",
+                "time": 1601891852345
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: getLoggedInUser",
+                "infFile": "t6.inf",
+                "time": 1601891852634
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: getLoggedInUser_2",
+                "infFile": "t7.inf",
+                "time": 1601891852956
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: getLoggedInUser_3",
+                "infFile": "t8.inf",
+                "time": 1601891854186
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: notification",
+                "infFile": "t9.inf",
+                "time": 1601891854797
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: getLoggedInUser_4",
+                "infFile": "t10.inf",
+                "time": 1601891856156
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: getLoggedInUser_5",
+                "infFile": "t11.inf",
+                "time": 1601891858262
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: notification_2",
+                "infFile": "t12.inf",
+                "time": 1601891858936
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: getAllUpcommingPreOrdersForLoggedInUser",
+                "infFile": "t13.inf",
+                "time": 1601891860220
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: getPayPendingPreOrdersForLoggedInUser",
+                "infFile": "t14.inf",
+                "time": 1601891861388
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: getAllUpcommingPreOrdersForLoggedInUser_2",
+                "infFile": "t15.inf",
+                "time": 1601891862834
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: getAllPreviousPreOrdersForLoggedInUser",
+                "infFile": "t16.inf",
+                "time": 1601891863884
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: getAllUpcommingPreOrdersForLoggedInUser_3",
+                "infFile": "t17.inf",
+                "time": 1601891865046
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Url: getLoggedInUser_6",
+                "infFile": "t18.inf",
+                "time": 1601891867083
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Url: getLoggedInUser_7",
+                "infFile": "t19.inf",
+                "time": 1601891869041
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Url: notification_3",
+                "infFile": "t20.inf",
+                "time": 1601891870266
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S02_Onlinestore_Launch",
+                "rawStartTime": 1601891745303,
+                "rawEndTime": 1601891839552,
+                "thinkTime": 0.0,
+                "wastedTime": 2.766462802886963
+            },
+            {
+                "transactionName": "S02_Onlinestore_Login",
+                "rawStartTime": 1601891839590,
+                "rawEndTime": 1601891852636,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08516383171081543
+            },
+            {
+                "transactionName": "S02_Onlinestore_SubmitOtp",
+                "rawStartTime": 1601891852642,
+                "rawEndTime": 1601891854799,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02397632598876953
+            },
+            {
+                "transactionName": "S02_Onlinestore_T01_PreOrder_ClickonPreorder",
+                "rawStartTime": 1601891854806,
+                "rawEndTime": 1601891858938,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05374789237976074
+            },
+            {
+                "transactionName": "S02_Onlinestore_T02_PreOrder_ViewPreOrder",
+                "rawStartTime": 1601891858945,
+                "rawEndTime": 1601891860222,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009098529815673828
+            },
+            {
+                "transactionName": "S02_Onlinestore_T03_PreOrder_PaymentPedndingPreOrders",
+                "rawStartTime": 1601891860229,
+                "rawEndTime": 1601891861390,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01345062255859375
+            },
+            {
+                "transactionName": "S02_Onlinestore_T04_PreOrder_GoToViewPreOrderDashBoard",
+                "rawStartTime": 1601891861396,
+                "rawEndTime": 1601891862835,
+                "thinkTime": 0.0,
+                "wastedTime": 0.024134159088134767
+            },
+            {
+                "transactionName": "S02_Onlinestore_T05_PreOrder_ViewOldPreOrders",
+                "rawStartTime": 1601891862843,
+                "rawEndTime": 1601891865048,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02314615249633789
+            },
+            {
+                "transactionName": "S02_Onlinestore_T06_PreOrder_ClickOnDashBoard",
+                "rawStartTime": 1601891865056,
+                "rawEndTime": 1601891870269,
+                "thinkTime": 0.0,
+                "wastedTime": 0.053369760513305667
+            }
+        ]
+    }
+]

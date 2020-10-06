@@ -1,0 +1,11 @@
+[t12]
+FileName1=t12_info.json
+URL1=http://13.233.120.29:4200/sockjs-node/info?t=1601538788041
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_12.xml
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t12_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

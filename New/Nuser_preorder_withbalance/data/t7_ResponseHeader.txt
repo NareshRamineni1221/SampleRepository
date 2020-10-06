@@ -1,0 +1,17 @@
+h3-q050 200 
+date: Mon, 14 Sep 2020 11:04:31 GMT
+x-content-type-options: nosniff
+last-modified: Wed, 24 Jul 2019 01:18:55 GMT
+server: sffe
+age: 601690
+content-type: font/woff2
+status: 200
+alt-svc: h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-27=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+cache-control: public, max-age=31536000
+accept-ranges: bytes
+timing-allow-origin: *
+access-control-allow-origin: *
+content-length: 15784
+x-xss-protection: 0
+expires: Tue, 14 Sep 2021 11:04:31 GMT
+

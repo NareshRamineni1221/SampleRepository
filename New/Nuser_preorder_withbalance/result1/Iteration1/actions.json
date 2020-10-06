@@ -1,0 +1,171 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: 13.233.120.29:4200",
+                "infFile": "t1.inf",
+                "time": 1601891956043
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: info",
+                "infFile": "t2.inf",
+                "time": 1601891962165
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: login",
+                "infFile": "t3.inf",
+                "time": 1601891963444
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: login_2",
+                "infFile": "t4.inf",
+                "time": 1601891964049
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: generateOtp",
+                "infFile": "t5.inf",
+                "time": 1601891964967
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: getLoggedInUser",
+                "infFile": "t6.inf",
+                "time": 1601891965647
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: generateOtp_2",
+                "infFile": "t7.inf",
+                "time": 1601891966192
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: getLoggedInUser_2",
+                "infFile": "t8.inf",
+                "time": 1601891966991
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: getLoggedInUser_3",
+                "infFile": "t9.inf",
+                "time": 1601891968266
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: notification",
+                "infFile": "t10.inf",
+                "time": 1601891969612
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: getLoggedInUser_4",
+                "infFile": "t11.inf",
+                "time": 1601891970691
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: getLoggedInUser_5",
+                "infFile": "t12.inf",
+                "time": 1601891971012
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: notification_2",
+                "infFile": "t13.inf",
+                "time": 1601891971217
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: getEquipmentProductMappingListForForLoggedInUser",
+                "infFile": "t14.inf",
+                "time": 1601891971790
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Custom Request: getEquipmentProductMappingListForForLoggedInUser_2",
+                "infFile": "t15.inf",
+                "time": 1601891972248
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: 25",
+                "infFile": "t16.inf",
+                "time": 1601891973252
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Custom Request: 25_2",
+                "infFile": "t17.inf",
+                "time": 1601891976264
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Custom Request: getPreOrderManagementNew",
+                "infFile": "t18.inf",
+                "time": 1601891993048
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Custom Request: getPreOrderManagementNew_2",
+                "infFile": "t19.inf",
+                "time": 1601891995102
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Url: getPreOrderYearsData",
+                "infFile": "t20.inf",
+                "time": 1601892017964
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_Onlinestore_Launch",
+                "rawStartTime": 1601891951767,
+                "rawEndTime": 1601891962166,
+                "thinkTime": 0.0,
+                "wastedTime": 0.21152639389038087
+            },
+            {
+                "transactionName": "S01_Onlinestore_Login",
+                "rawStartTime": 1601891962174,
+                "rawEndTime": 1601891964968,
+                "thinkTime": 0.0,
+                "wastedTime": 0.044844865798950198
+            },
+            {
+                "transactionName": "S07_Onlinestore_Submitotp",
+                "rawStartTime": 1601891964974,
+                "rawEndTime": 1601891969614,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07211613655090332
+            },
+            {
+                "transactionName": "S01_Onlinestore_T01_PreOrder_ClickOnPreOrder",
+                "rawStartTime": 1601891969619,
+                "rawEndTime": 1601891971219,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03059101104736328
+            },
+            {
+                "transactionName": "S01_Onlinestore_T03_PreOrder_CreatePreOrder",
+                "rawStartTime": 1601891971225,
+                "rawEndTime": 1601891976267,
+                "thinkTime": 0.0,
+                "wastedTime": 0.21297264099121095
+            },
+            {
+                "transactionName": "S01_Onlinestore_T04_PreOrder_Proceed",
+                "rawStartTime": 1601891976277,
+                "rawEndTime": 1601892017971,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04237055778503418
+            }
+        ]
+    }
+]

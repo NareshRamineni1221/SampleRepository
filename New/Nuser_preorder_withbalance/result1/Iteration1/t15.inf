@@ -1,0 +1,13 @@
+[t15]
+SnapshotXmlFile=snapshot_15.xml
+ContentType=text/html
+StepName=Custom Request: getEquipmentProductMappingListForForLoggedInUser_2
+Total=1
+FileName1=t1.html
+RequestHeaderFile=t15_RequestHeader.txt
+ResponseHeaderFile=t15_ResponseHeader.txt
+RawStepEndTime=1601891972221
+RawStepName=getEquipmentProductMappingListForForLoggedInUser_2
+RequestBodyFile=t15_RequestBody.txt
+RawStepStartTime=1601891971810
+URL1=file:

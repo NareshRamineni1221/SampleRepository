@@ -1,0 +1,14 @@
+GET https://122.166.166.152:80/generateOtp HTTP/1.1
+Host: 122.166.166.152:80
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxOTY5IiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDA5Mzc3MTYsImV4cCI6MTYwMTgwMTcxNn0._qc4PN0pa5DjxgZXb0COIvCPaFLi-4GQWiRpNtGT12UpGX-ivPyMp9BENP_wTf4eQ4f411XFexU1uMugRtXNBQ
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Origin: http://122.166.166.152:81
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://122.166.166.152:81/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+

@@ -1,0 +1,13 @@
+[t14]
+SnapshotXmlFile=snapshot_14.xml
+ContentType=application/json
+StepName=Url: getEquipmentProductMappingListForForLoggedInUser
+Total=1
+FileName1=t14.json
+RequestHeaderFile=t14_RequestHeader.txt
+ResponseHeaderFile=t14_ResponseHeader.txt
+RawStepEndTime=1601891971759
+RawStepName=getEquipmentProductMappingListForForLoggedInUser
+RequestBodyFile=t14_RequestBody.txt
+RawStepStartTime=1601891971231
+URL1=http://52.66.237.253:8182/getEquipmentProductMappingListForForLoggedInUser

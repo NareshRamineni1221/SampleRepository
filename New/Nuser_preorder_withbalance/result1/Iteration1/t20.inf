@@ -1,0 +1,13 @@
+[t20]
+SnapshotXmlFile=snapshot_20.xml
+ContentType=application/json
+StepName=Url: getPreOrderYearsData
+Total=1
+FileName1=t20.json
+RequestHeaderFile=t20_RequestHeader.txt
+ResponseHeaderFile=t20_ResponseHeader.txt
+RawStepEndTime=1601891995460
+RawStepName=getPreOrderYearsData
+RequestBodyFile=t20_RequestBody.txt
+RawStepStartTime=1601891995120
+URL1=http://52.66.237.253:8182/getPreOrderYearsData

@@ -1,0 +1,11 @@
+[t32]
+FileName1=t32.html
+URL1=http://52.66.237.253:8182/getPreOrderYearsData
+Total=1
+RequestHeaderFile=t32_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t32_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_32.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

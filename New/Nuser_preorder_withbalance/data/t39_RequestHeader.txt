@@ -1,0 +1,5 @@
+GET https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4.woff2 h3-q050
+Origin: http://13.233.120.29:4200
+Referer: https://fonts.googleapis.com/
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Mobile Safari/537.36
+

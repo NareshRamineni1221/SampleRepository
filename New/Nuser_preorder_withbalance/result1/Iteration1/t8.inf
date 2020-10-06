@@ -1,0 +1,13 @@
+[t8]
+SnapshotXmlFile=snapshot_8.xml
+ContentType=application/json
+StepName=Url: getLoggedInUser_2
+Total=1
+FileName1=t8.json
+RequestHeaderFile=t8_RequestHeader.txt
+ResponseHeaderFile=t8_ResponseHeader.txt
+RawStepEndTime=1601891966964
+RawStepName=getLoggedInUser_2
+RequestBodyFile=t8_RequestBody.txt
+RawStepStartTime=1601891966198
+URL1=http://52.66.237.253:8182/getLoggedInUser

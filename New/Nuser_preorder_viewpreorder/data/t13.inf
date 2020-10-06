@@ -1,0 +1,11 @@
+[t13]
+FileName1=t13_notification.json
+URL1=https://122.166.166.152:80/notification
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_13.xml
+RequestHeaderFile=t13_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t13_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

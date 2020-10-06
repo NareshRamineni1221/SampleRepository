@@ -1,0 +1,13 @@
+[t7]
+SnapshotXmlFile=snapshot_7.xml
+ContentType=text/html
+StepName=Url: generateOtp_2
+Total=1
+FileName1=t7.html
+RequestHeaderFile=t7_RequestHeader.txt
+ResponseHeaderFile=t7_ResponseHeader.txt
+RawStepEndTime=1601891966172
+RawStepName=generateOtp_2
+RequestBodyFile=t7_RequestBody.txt
+RawStepStartTime=1601891965654
+URL1=http://52.66.237.253:8182/generateOtp

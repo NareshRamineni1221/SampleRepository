@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Lenovo\Desktop\Nuser\Nuser_preorder_viewpreorder
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\lenovo\desktop\nuser\nuser_preorder_viewpreorder\\logfile.log
+c:\users\lenovo\desktop\nuser\nuser_preorder_viewpreorder\\combined_Nuser_preorder_viewpreorder.c
+c:\users\lenovo\desktop\nuser\nuser_preorder_viewpreorder\\pre_cci.c

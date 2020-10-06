@@ -1,0 +1,17 @@
+h3-q050 200 
+status: 200
+accept-ranges: bytes
+content-type: font/woff2
+access-control-allow-origin: *
+timing-allow-origin: *
+content-length: 15816
+date: Mon, 21 Sep 2020 11:04:33 GMT
+expires: Tue, 21 Sep 2021 11:04:33 GMT
+last-modified: Wed, 24 Jul 2019 01:19:00 GMT
+x-content-type-options: nosniff
+server: sffe
+x-xss-protection: 0
+age: 50049
+cache-control: public, max-age=31536000
+alt-svc: h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-27=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+

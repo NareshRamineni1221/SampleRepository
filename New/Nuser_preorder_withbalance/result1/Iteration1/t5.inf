@@ -1,0 +1,13 @@
+[t5]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=text/html
+StepName=Url: generateOtp
+Total=1
+FileName1=t5.html
+RequestHeaderFile=t5_RequestHeader.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+RawStepEndTime=1601891964942
+RawStepName=generateOtp
+RequestBodyFile=t5_RequestBody.txt
+RawStepStartTime=1601891964056
+URL1=http://52.66.237.253:8182/generateOtp

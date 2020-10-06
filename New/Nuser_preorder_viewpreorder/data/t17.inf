@@ -1,0 +1,11 @@
+[t17]
+FileName1=t17_getAllPreviousPreOrdersForLoggedInUser.json
+URL1=https://122.166.166.152:80/getAllPreviousPreOrdersForLoggedInUser
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_17.xml
+RequestHeaderFile=t17_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t17_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

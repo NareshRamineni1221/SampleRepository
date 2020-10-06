@@ -1,0 +1,22 @@
+[t7]
+FileName2=t1_3_google-logo.png
+RawStepEndTime=1601891852910
+FileName5=t1_0_styles.UNK
+FileName4=t1_1_main.UNK
+RequestBodyFile=t7_RequestBody.txt
+RawStepName=getLoggedInUser_2
+ContentType=application/json
+URL1=http://52.66.237.253:8182/getLoggedInUser
+URL2=http://13.233.120.29:4200/assets/google-logo.png
+URL3=http://13.233.120.29:4200/assets/smallerLogo.png
+ResponseHeaderFile=t7_ResponseHeader.txt
+URL4=http://13.233.120.29:4200/main.js
+URL5=http://13.233.120.29:4200/styles.js
+SnapshotXmlFile=snapshot_7.xml
+RequestHeaderFile=t7_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1601891852644
+Total=5
+StepName=Url: getLoggedInUser_2
+FileName1=t7.json
+FileName3=t1_2_smallerLogo.png

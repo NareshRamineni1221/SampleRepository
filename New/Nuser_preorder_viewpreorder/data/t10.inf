@@ -1,0 +1,15 @@
+[t10]
+FileName1=t10_notification.json
+URL1=https://122.166.166.152:80/notification
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_10.xml
+RequestHeaderFile=t10_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t10_ResponseHeader.txt
+FileName2=t10_fontawesome-webfont.html
+URL2=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0
+FileName3=t10_fa-solid-900.html
+URL3=https://use.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.woff2
+[ProtocolInfo]
+ProtocolId=QTWeb

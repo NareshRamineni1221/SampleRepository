@@ -1,0 +1,11 @@
+[t16]
+FileName1=t16_generateOtp.json
+URL1=http://52.66.237.253:8182/generateOtp
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_16.xml
+RequestHeaderFile=t16_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t16_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

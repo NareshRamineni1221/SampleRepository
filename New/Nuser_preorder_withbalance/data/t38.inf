@@ -1,0 +1,11 @@
+[t38]
+FileName1=t38.html
+URL1=http://52.66.237.253:8182/getPreOrderManagementByPreOrderId/1181
+Total=1
+RequestHeaderFile=t38_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t38_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_38.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

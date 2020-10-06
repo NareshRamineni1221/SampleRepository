@@ -1,0 +1,11 @@
+[t12]
+FileName1=t12_getLoggedInUser.json
+URL1=https://122.166.166.152:80/getLoggedInUser
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_12.xml
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t12_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

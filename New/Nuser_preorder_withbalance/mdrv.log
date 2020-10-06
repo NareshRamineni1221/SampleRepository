@@ -1,0 +1,297 @@
+Virtual User Script started at: 05-10-2020 15:29:11
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Mobile Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Lenovo\Desktop\Nuser\Nuser_preorder_withbalance\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(4): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(4): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(7): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Action.c(7): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(11): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(11): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(13): Notify: Transaction "S01_Onlinestore_Launch" started.
+Action.c(15): web_url("13.233.120.29:4200") started  	[MsgId: MMSG-26355]
+Action.c(15): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(15): web_url("13.233.120.29:4200") was successful, 3707 body bytes, 262 header bytes  	[MsgId: MMSG-26386]
+Action.c(27): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(27): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(30): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action.c(30): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action.c(32): web_url("runtime.js") started  	[MsgId: MMSG-26355]
+Action.c(32): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(32): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(32): Resource "http://13.233.120.29:4200/runtime.js" not downloaded (resource downloading not requested)  	[MsgId: MMSG-27299]
+Action.c(41): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(41): Warning -26592: A header of the same name has been added already. This header is added anyway.  	[MsgId: MWAR-26592]
+Action.c(41): web_add_header("Origin") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(44): web_url("polyfills.js") started  	[MsgId: MMSG-26355]
+Action.c(44): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(44): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(44): Resource "http://13.233.120.29:4200/polyfills.js" not downloaded (resource downloading not requested)  	[MsgId: MMSG-27299]
+Action.c(53): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(53): Warning -26592: A header of the same name has been added already. This header is added anyway.  	[MsgId: MWAR-26592]
+Action.c(53): web_add_header("Origin") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(56): web_url("styles.js") started  	[MsgId: MMSG-26355]
+Action.c(56): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(56): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(56): Resource "http://13.233.120.29:4200/styles.js" not downloaded (resource downloading not requested)  	[MsgId: MMSG-27299]
+Action.c(65): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(65): Warning -26592: A header of the same name has been added already. This header is added anyway.  	[MsgId: MWAR-26592]
+Action.c(65): web_add_header("Origin") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(68): web_url("vendor.js") started  	[MsgId: MMSG-26355]
+Action.c(68): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(68): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(68): Resource "http://13.233.120.29:4200/vendor.js" not downloaded (resource downloading not requested)  	[MsgId: MMSG-27299]
+Action.c(77): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(77): Warning -26592: A header of the same name has been added already. This header is added anyway.  	[MsgId: MWAR-26592]
+Action.c(77): web_add_header("Origin") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(80): web_url("main.js") started  	[MsgId: MMSG-26355]
+Action.c(80): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(80): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(80): Resource "http://13.233.120.29:4200/main.js" not downloaded (resource downloading not requested)  	[MsgId: MMSG-27299]
+Action.c(89): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(89): Warning -26592: A header of the same name has been added already. This header is added anyway.  	[MsgId: MWAR-26592]
+Action.c(89): web_add_header("Origin") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(93): web_url("smallerLogo.png") started  	[MsgId: MMSG-26355]
+Action.c(93): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(93): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(93): Resource "http://13.233.120.29:4200/assets/smallerLogo.png" not downloaded (resource downloading not requested)  	[MsgId: MMSG-27299]
+Action.c(101): web_url("google-logo.png") started  	[MsgId: MMSG-26355]
+Action.c(101): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(101): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(101): Resource "http://13.233.120.29:4200/assets/google-logo.png" not downloaded (resource downloading not requested)  	[MsgId: MMSG-27299]
+Action.c(109): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action.c(109): web_concurrent_end was successful  	[MsgId: MMSG-26392]
+Action.c(111): web_url("info") started  	[MsgId: MMSG-26355]
+Action.c(111): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(111): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(111): web_url("info") was successful, 79 body bytes, 278 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(121): Notify: Transaction "S01_Onlinestore_Launch" ended with a "Pass" status (Duration: 10.3996 Wasted Time: 0.2115).
+Action.c(134): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(134): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(136): Notify: Transaction "S01_Onlinestore_Login" started.
+Action.c(138): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(138): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(138): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(138): Notify: Parameter Substitution: parameter "p_user" =  "CorporateNusertest01@gmail.com"
+Action.c(138): Notify: Parameter Substitution: parameter "p_pass" =  "Temp@123"
+Action.c(138): Notify: Saving Parameter "c_Auth = eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ".
+Action.c(138): web_custom_request("login") was successful, 250 body bytes, 474 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(151): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(151): Notify: Parameter Substitution: parameter "c_Auth" =  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ"
+Action.c(151): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(151): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(152): web_custom_request("login_2") started  	[MsgId: MMSG-26355]
+Action.c(152): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(152): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(152): Notify: Parameter Substitution: parameter "p_user" =  "CorporateNusertest01@gmail.com"
+Action.c(152): Notify: Parameter Substitution: parameter "p_pass" =  "Temp@123"
+Action.c(152): web_custom_request("login_2") was successful, 250 body bytes, 474 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(164): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(164): Notify: Parameter Substitution: parameter "c_Auth" =  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ"
+Action.c(164): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(164): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(166): web_url("generateOtp") started  	[MsgId: MMSG-26355]
+Action.c(166): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(166): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(166): web_url("generateOtp") was successful, 11 body bytes, 474 header bytes  	[MsgId: MMSG-26386]
+Action.c(176): Notify: Transaction "S01_Onlinestore_Login" ended with a "Pass" status (Duration: 2.7948 Wasted Time: 0.0448).
+Action.c(178): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(178): Notify: Parameter Substitution: parameter "c_Auth" =  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ"
+Action.c(178): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(178): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(180): Notify: Transaction "S07_Onlinestore_Submitotp" started.
+Action.c(182): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(182): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(184): web_url("getLoggedInUser") started  	[MsgId: MMSG-26355]
+Action.c(184): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(184): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(184): Notify: Saving Parameter "c_UserID = 2121".
+Action.c(184): web_url("getLoggedInUser") was successful, 1319 body bytes, 474 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(193): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(193): Notify: Parameter Substitution: parameter "c_Auth" =  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ"
+Action.c(193): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(193): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(195): web_url("generateOtp_2") started  	[MsgId: MMSG-26355]
+Action.c(195): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(195): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(195): web_url("generateOtp_2") was successful, 11 body bytes, 474 header bytes  	[MsgId: MMSG-26386]
+Action.c(204): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(204): Notify: Parameter Substitution: parameter "c_Auth" =  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ"
+Action.c(204): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(204): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(206): web_url("getLoggedInUser_2") started  	[MsgId: MMSG-26355]
+Action.c(206): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(206): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(206): web_url("getLoggedInUser_2") was successful, 1319 body bytes, 474 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(215): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(215): Notify: Parameter Substitution: parameter "c_Auth" =  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ"
+Action.c(215): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(215): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(217): web_url("getLoggedInUser_3") started  	[MsgId: MMSG-26355]
+Action.c(217): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(217): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(217): web_url("getLoggedInUser_3") was successful, 1319 body bytes, 474 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(226): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(226): Notify: Parameter Substitution: parameter "c_Auth" =  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ"
+Action.c(226): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(226): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(228): web_url("notification") started  	[MsgId: MMSG-26355]
+Action.c(228): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(228): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(228): web_url("notification") was successful, 2 body bytes, 474 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(238): Notify: Transaction "S07_Onlinestore_Submitotp" ended with a "Pass" status (Duration: 4.6392 Wasted Time: 0.0721).
+Action.c(240): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(240): Notify: Parameter Substitution: parameter "c_Auth" =  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ"
+Action.c(240): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(240): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(242): Notify: Transaction "S01_Onlinestore_T01_PreOrder_ClickOnPreOrder" started.
+Action.c(244): web_url("getLoggedInUser_4") started  	[MsgId: MMSG-26355]
+Action.c(244): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(244): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(244): web_url("getLoggedInUser_4") was successful, 1319 body bytes, 474 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(253): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(253): Notify: Parameter Substitution: parameter "c_Auth" =  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ"
+Action.c(253): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(253): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(255): web_url("getLoggedInUser_5") started  	[MsgId: MMSG-26355]
+Action.c(255): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(255): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(255): web_url("getLoggedInUser_5") was successful, 1319 body bytes, 474 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(264): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(264): Notify: Parameter Substitution: parameter "c_Auth" =  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ"
+Action.c(264): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(264): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(266): web_url("notification_2") started  	[MsgId: MMSG-26355]
+Action.c(266): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(266): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(266): web_url("notification_2") was successful, 2 body bytes, 474 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(276): Notify: Transaction "S01_Onlinestore_T01_PreOrder_ClickOnPreOrder" ended with a "Pass" status (Duration: 1.5990 Wasted Time: 0.0306).
+Action.c(278): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(278): Notify: Parameter Substitution: parameter "c_Auth" =  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ"
+Action.c(278): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(278): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(280): Notify: Transaction "S01_Onlinestore_T03_PreOrder_CreatePreOrder" started.
+Action.c(282): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(282): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(284): web_url("getEquipmentProductMappingListForForLoggedInUser") started  	[MsgId: MMSG-26355]
+Action.c(284): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(284): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(284): Notify: Saving Parameter "C_productId = 25".
+Action.c(284): web_url("getEquipmentProductMappingListForForLoggedInUser") was successful, 884 body bytes, 474 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(294): web_add_header("Access-Control-Request-Headers") started  	[MsgId: MMSG-26355]
+Action.c(294): web_add_header("Access-Control-Request-Headers") was successful  	[MsgId: MMSG-26392]
+Action.c(297): web_add_header("Access-Control-Request-Method") started  	[MsgId: MMSG-26355]
+Action.c(297): web_add_header("Access-Control-Request-Method") was successful  	[MsgId: MMSG-26392]
+Action.c(300): web_add_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(300): web_add_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(302): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(302): Notify: Parameter Substitution: parameter "c_Auth" =  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ"
+Action.c(302): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(302): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(306): web_custom_request("getEquipmentProductMappingListForForLoggedInUser_2") started  	[MsgId: MMSG-26355]
+Action.c(306): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(306): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(306): web_custom_request("getEquipmentProductMappingListForForLoggedInUser_2") was successful, 0 body bytes, 344 header bytes  	[MsgId: MMSG-26386]
+Action.c(315): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(315): Notify: Parameter Substitution: parameter "c_Auth" =  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ"
+Action.c(315): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(315): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(318): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(318): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(320): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(320): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(322): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(322): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(324): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(324): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(326): web_url("25") started  	[MsgId: MMSG-26355]
+Action.c(326): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(326): Notify: Parameter Substitution: parameter "C_productId" =  "25"
+Action.c(326): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(326): Notify: Saving Parameter "c_warehouseId = 16".
+Action.c(326): Notify: Saving Parameter "c_region = SOUTH".
+Action.c(326): Notify: Saving Parameter "c_stateId = 4026".
+Action.c(326): Notify: Saving Parameter "c_cityId = 57847".
+Action.c(326): web_url("25") was successful, 1479 body bytes, 474 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(336): web_add_header("Access-Control-Request-Headers") started  	[MsgId: MMSG-26355]
+Action.c(336): web_add_header("Access-Control-Request-Headers") was successful  	[MsgId: MMSG-26392]
+Action.c(339): web_add_header("Access-Control-Request-Method") started  	[MsgId: MMSG-26355]
+Action.c(339): web_add_header("Access-Control-Request-Method") was successful  	[MsgId: MMSG-26392]
+Action.c(342): web_add_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(342): web_add_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(344): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(344): Notify: Parameter Substitution: parameter "c_Auth" =  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ"
+Action.c(344): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(344): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(347): web_custom_request("25_2") started  	[MsgId: MMSG-26355]
+Action.c(347): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(347): Notify: Parameter Substitution: parameter "C_productId" =  "25"
+Action.c(347): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(347): web_custom_request("25_2") was successful, 0 body bytes, 344 header bytes  	[MsgId: MMSG-26386]
+Action.c(357): Notify: Transaction "S01_Onlinestore_T03_PreOrder_CreatePreOrder" ended with a "Pass" status (Duration: 5.0418 Wasted Time: 0.2130).
+Action.c(359): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(359): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(361): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(361): Notify: Parameter Substitution: parameter "c_Auth" =  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ"
+Action.c(361): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(361): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(363): Notify: Transaction "S01_Onlinestore_T04_PreOrder_Proceed" started.
+Action.c(365): web_custom_request("getPreOrderManagementNew") started  	[MsgId: MMSG-26355]
+Action.c(365): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(365): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(365): Notify: Parameter Substitution: parameter "c_UserID" =  "2121"
+Action.c(365): Notify: Parameter Substitution: parameter "C_productId" =  "25"
+Action.c(365): Notify: Parameter Substitution: parameter "c_region" =  "SOUTH"
+Action.c(365): Notify: Parameter Substitution: parameter "c_stateId" =  "4026"
+Action.c(365): Notify: Parameter Substitution: parameter "c_cityId" =  "57847"
+Action.c(365): Notify: Parameter Substitution: parameter "c_warehouseId" =  "16"
+Action.c(365): Notify: Saving Parameter "C_userProductPriceIds = 50,51".
+Action.c(365): web_custom_request("getPreOrderManagementNew") was successful, 2723 body bytes, 474 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(378): web_add_header("Access-Control-Request-Headers") started  	[MsgId: MMSG-26355]
+Action.c(378): web_add_header("Access-Control-Request-Headers") was successful  	[MsgId: MMSG-26392]
+Action.c(381): web_add_header("Access-Control-Request-Method") started  	[MsgId: MMSG-26355]
+Action.c(381): web_add_header("Access-Control-Request-Method") was successful  	[MsgId: MMSG-26392]
+Action.c(384): web_add_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(384): web_add_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(386): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(386): Notify: Parameter Substitution: parameter "c_Auth" =  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ"
+Action.c(386): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(386): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(388): web_custom_request("getPreOrderManagementNew_2") started  	[MsgId: MMSG-26355]
+Action.c(388): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(388): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(388): web_custom_request("getPreOrderManagementNew_2") was successful, 0 body bytes, 344 header bytes  	[MsgId: MMSG-26386]
+Action.c(397): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(397): Notify: Parameter Substitution: parameter "c_Auth" =  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMTIxIiwiUk9MRSI6IlJPTEVfQ09SUE9SQVRFX1VTRVIiLCJpYXQiOjE2MDE4OTE5NjMsImV4cCI6MTYwMjc1NTk2M30.KWrzvf5xFWtzvcMKMxZ3uCL-jKq1hBQA3PcksGwD4knCTZ1CiZNc7tYNHjMZYFR0UOnqowKgPr52GSMho7YQzQ"
+Action.c(397): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(397): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(399): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(399): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(401): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(401): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(403): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(403): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(405): web_url("getPreOrderYearsData") started  	[MsgId: MMSG-26355]
+Action.c(405): Notify: Parameter Substitution: parameter "p_url2" =  "http://52.66.237.253:8182/"
+Action.c(405): Notify: Parameter Substitution: parameter "p_url1" =  "http://13.233.120.29:4200/"
+Action.c(405): Notify: Saving Parameter "C_year = 2020".
+Action.c(405): Notify: Saving Parameter "C_preOrderQuarter = 4".
+Action.c(405): Notify: Saving Parameter "C_preOrderMonth = 11".
+Action.c(405): web_url("getPreOrderYearsData") was successful, 962 body bytes, 474 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(415): Notify: Transaction "S01_Onlinestore_T04_PreOrder_Proceed" ended with a "Stop" status (Duration: 41.6938 Wasted Time: 0.0424).
+Abort was called from an action.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 4372), ended OK."

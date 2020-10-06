@@ -1,0 +1,795 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "upgrade",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-version",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-websocket-key",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-websocket-extensions",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "authorization",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "access-control-request-method",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "access-control-request-headers",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff2"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/octet-stream"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 57,
+    "RecordedBrowser": "c:\\program files (x86)\\micro focus\\loadrunner\\bin\\hp.lr.harparser.exe",
+    "RecordingDate": "Oct-01-2020",
+    "RecordingDuration": 1656,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1601539014,
+    "RecordingType": "Application",
+    "TotalBytesReceived": 3603506,
+    "TotalBytesSent": 28876,
+    "TotalRequests": 57,
+    "UserAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Mobile Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "jquery.com",
+      "Domains": [
+        {
+          "HTTPVersion": "http/2.0",
+          "IP": "209.197.3.24",
+          "IncludeInScript": true,
+          "Name": "code.jquery.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 129,
+              "HttpStatus": 200,
+              "Size": 24038,
+              "URL": "https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "2&3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "h3-q050",
+          "IP": "216.58.197.35",
+          "IncludeInScript": true,
+          "Name": "fonts.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 0,
+              "EventId": 460,
+              "HttpStatus": 200,
+              "Size": 15816,
+              "URL": "https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 0,
+              "EventId": 210,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "2&3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "h3-q050",
+          "IP": "142.250.71.42",
+          "IncludeInScript": true,
+          "Name": "fonts.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 0,
+              "EventId": 86,
+              "HttpStatus": 200,
+              "Size": 9904,
+              "URL": "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 0,
+              "EventId": 55,
+              "HttpStatus": 200,
+              "Size": 568,
+              "URL": "https://fonts.googleapis.com/icon?family=Material+Icons"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 0,
+              "EventId": 45,
+              "HttpStatus": 200,
+              "Size": 7428,
+              "URL": "https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "2&3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "fontawesome.com",
+      "Domains": [
+        {
+          "HTTPVersion": "http/2.0",
+          "IP": "23.111.9.35",
+          "IncludeInScript": true,
+          "Name": "use.fontawesome.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 0,
+              "EventId": 219,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://use.fontawesome.com/releases/v5.8.2/webfonts/fa-solid-900.woff2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 15,
+              "EventId": 76,
+              "HttpStatus": 200,
+              "Size": 55183,
+              "URL": "https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "2&3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "cloudflare.com",
+      "Domains": [
+        {
+          "HTTPVersion": "http/2.0",
+          "IP": "104.17.78.107",
+          "IncludeInScript": true,
+          "Name": "cdnjs.cloudflare.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 229,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 0,
+              "EventId": 161,
+              "HttpStatus": 200,
+              "Size": 55133,
+              "URL": "https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 140,
+              "HttpStatus": 200,
+              "Size": 6646,
+              "URL": "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 119,
+              "HttpStatus": 200,
+              "Size": 5631,
+              "URL": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 0,
+              "EventId": 108,
+              "HttpStatus": 200,
+              "Size": 22447,
+              "URL": "https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 0,
+              "EventId": 97,
+              "HttpStatus": 200,
+              "Size": 17437,
+              "URL": "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 66,
+              "HttpStatus": 200,
+              "Size": 21823,
+              "URL": "https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "2&3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "bootstrapcdn.com",
+      "Domains": [
+        {
+          "HTTPVersion": "http/2.0",
+          "IP": "209.197.3.15",
+          "IncludeInScript": true,
+          "Name": "stackpath.bootstrapcdn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 0,
+              "EventId": 150,
+              "HttpStatus": 200,
+              "Size": 15434,
+              "URL": "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 0,
+              "EventId": 25,
+              "HttpStatus": 200,
+              "Size": 7050,
+              "URL": "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 15,
+              "HttpStatus": 200,
+              "Size": 23237,
+              "URL": "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "2&3"
+        },
+        {
+          "HTTPVersion": "http/2.0",
+          "IP": "209.197.3.15",
+          "IncludeInScript": true,
+          "Name": "maxcdn.bootstrapcdn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 0,
+              "EventId": 35,
+              "HttpStatus": 200,
+              "Size": 20563,
+              "URL": "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "2&3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "52.66.237.253",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "52.66.237.253",
+          "IncludeInScript": true,
+          "Name": "52.66.237.253",
+          "Port": 8182,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 484,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/notification"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 476,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getLoggedInUser"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 468,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getLoggedInUser"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 451,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getPreOrderManagementByPreOrderId/1181"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 443,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getPreOrderManagementByPreOrderId/1181"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 436,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/savePreOrder"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 428,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/savePreOrder"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 421,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getPreOrderAvgConsumptionForLoggedInUser/25/16"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 413,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getPreOrderAvgConsumptionForLoggedInUser/25/16"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 406,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getPreOrderYearsData"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 398,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getPreOrderYearsData"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 391,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getPreOrderManagementNew"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 383,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getPreOrderManagementNew"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 376,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getWarehouseProductMappingByMasterProducts/25"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 368,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getWarehouseProductMappingByMasterProducts/25"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 361,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getEquipmentProductMappingListForForLoggedInUser"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 353,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getEquipmentProductMappingListForForLoggedInUser"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 345,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/notification"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 337,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getLoggedInUser"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 329,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getLoggedInUser"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 321,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/notification"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 313,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getLoggedInUser"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 305,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getLoggedInUser"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 297,
+              "HttpStatus": 200,
+              "Size": 11,
+              "URL": "http://52.66.237.253:8182/generateOtp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 289,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/getLoggedInUser"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 281,
+              "HttpStatus": 200,
+              "Size": 11,
+              "URL": "http://52.66.237.253:8182/generateOtp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 273,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/auth/login"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 265,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://52.66.237.253:8182/auth/login"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "13.233.120.29",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "13.233.120.29",
+          "IncludeInScript": true,
+          "Name": "13.233.120.29",
+          "Port": 4200,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 252,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://13.233.120.29:4200/sockjs-node/info?t=1601538788041"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 244,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://13.233.120.29:4200/assets/google-logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 236,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://13.233.120.29:4200/assets/smallerLogo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 0,
+              "EventId": 200,
+              "HttpStatus": 200,
+              "Size": 2766282,
+              "URL": "http://13.233.120.29:4200/main.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 0,
+              "EventId": 193,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://13.233.120.29:4200/vendor.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 185,
+              "HttpStatus": 200,
+              "Size": 249011,
+              "URL": "http://13.233.120.29:4200/styles.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 0,
+              "EventId": 177,
+              "HttpStatus": 200,
+              "Size": 269847,
+              "URL": "http://13.233.120.29:4200/polyfills.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 169,
+              "HttpStatus": 200,
+              "Size": 6299,
+              "URL": "http://13.233.120.29:4200/runtime.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 5,
+              "HttpStatus": 304,
+              "Size": 3707,
+              "URL": "http://13.233.120.29:4200/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "13.233.120.29",
+          "IncludeInScript": true,
+          "Name": "13.233.120.29",
+          "Port": 0,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 258,
+              "HttpStatus": 101,
+              "Size": 0,
+              "URL": "http://13.233.120.29:0/ws://13.233.120.29:4200/sockjs-node/851/horfwgnd/websocket"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": true
+  },
+  "NumberOfCorrelations": 0
+}

@@ -1,0 +1,11 @@
+[t31]
+FileName1=t31_getPreOrderYearsData.json
+URL1=http://52.66.237.253:8182/getPreOrderYearsData
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_31.xml
+RequestHeaderFile=t31_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t31_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

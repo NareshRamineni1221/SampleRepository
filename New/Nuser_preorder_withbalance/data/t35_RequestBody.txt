@@ -1,0 +1,3 @@
+"{\"userId\":2121,\"productId\":25,\"region\":\"SOUTH\",\"stateId\":4026,\"cityId\":57847,\"war"
+"ehouseIds\":[16],\"preOrderQuantity\":12,\"preOrderYear\":2020,\"preOrderQuarter\":4,\"preOrde"
+"rMonth\":11,\"vendorProductPriceId\":37,\"userProductPriceIds\":[50,51],\"preOrderPrice\":180}"

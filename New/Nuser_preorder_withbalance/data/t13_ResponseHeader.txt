@@ -1,0 +1,5 @@
+HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Sec-WebSocket-Accept: uM8/BeNfPqAlZ3Ti7h9t6l/cOKE=
+Upgrade: websocket
+

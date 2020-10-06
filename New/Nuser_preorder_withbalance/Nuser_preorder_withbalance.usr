@@ -1,0 +1,71 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=Nuser_preorder_withbalance.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=60
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.60.0.971
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.60.0.971
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+WebSocketCB.c=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="S01_Onlinestore_Launch__*delimiter*__S01_Onlinestore_Login__*delimiter*__S07_Onlinestore_Submitotp__*delimiter*__S01_Onlinestore_T01_PreOrder_ClickOnPreOrder__*delimiter*__S01_Onlinestore_T03_PreOrder_CreatePreOrder__*delimiter*__S01_Onlinestore_T04_PreOrder_Proceed__*delimiter*__S01_Onlinestore_T05_PreOrder_SavePreOrder__*delimiter*__S01_Online_T06_PreOrder_ClickOnDashBoard"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[ExtraFilesToParse]
+WebSocketCB.c=
+[Transactions]
+S01_Onlinestore_Launch=
+S01_Onlinestore_Login=
+S07_Onlinestore_Submitotp=
+S01_Onlinestore_T01_PreOrder_ClickOnPreOrder=
+S01_Onlinestore_T03_PreOrder_CreatePreOrder=
+S01_Onlinestore_T04_PreOrder_Proceed=
+S01_Onlinestore_T05_PreOrder_SavePreOrder=
+S01_Online_T06_PreOrder_ClickOnDashBoard=

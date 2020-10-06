@@ -1,0 +1,13 @@
+[t10]
+SnapshotXmlFile=snapshot_10.xml
+ContentType=application/json
+StepName=Url: notification
+Total=1
+FileName1=t10.json
+RequestHeaderFile=t10_RequestHeader.txt
+ResponseHeaderFile=t10_ResponseHeader.txt
+RawStepEndTime=1601891969570
+RawStepName=notification
+RequestBodyFile=t10_RequestBody.txt
+RawStepStartTime=1601891968273
+URL1=http://52.66.237.253:8182/notification
